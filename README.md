@@ -19,12 +19,12 @@ gunzip 421-534_SKA_align_m-0.2_k-15_p-0.1.OHE.csv.gz
 gunzip 113-534_SKA_align_m-0.2_k-15_p-0.1.OHE.csv.gz
 ```
 
-### Start python interpreter
+### Start python interpreter:
 ```
 python
 ```
 
-### Load packages
+### Load packages:
 ```
 import pandas as pd
 import numpy as np
