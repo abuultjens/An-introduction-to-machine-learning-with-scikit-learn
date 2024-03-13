@@ -9,7 +9,7 @@ conda install anaconda::pandas=1.4.2
 conda install conda-forge::matplotlib=3.7.1
 ```
 
-### load packages
+### Load packages
 ```
 import pandas as pd
 import numpy as np
@@ -18,7 +18,7 @@ from sklearn.metrics import confusion_matrix, roc_auc_score, roc_curve
 import matplotlib.pyplot as plt
 ```
 
-### load training dataset:
+### Load training dataset:
 ```
 # load data
 train_data = pd.read_csv('421-534_SKA_align_m-0.2_k-15_p-0.1.OHE.csv', index_col=0)
@@ -33,7 +33,7 @@ train_labels = pd.read_csv('target_421_NY-2.csv', index_col=0)
 train_labels = train_labels.loc[train_data_t.index]
 ```
 
-### Train a Random Forest Classifier:
+### Train a random forest classifier:
 ```
 # Initialise the Random Forest classifier
 classifier_model = RandomForestClassifier()
@@ -42,7 +42,7 @@ classifier_model = RandomForestClassifier()
 classifier_model.fit(train_data_t, train_labels.values.ravel())
 ```
 
-### load training dataset:
+### Load training dataset:
 ```
 # load the test data
 test_data_path = '113-534_SKA_align_m-0.2_k-15_p-0.1.OHE.csv'
