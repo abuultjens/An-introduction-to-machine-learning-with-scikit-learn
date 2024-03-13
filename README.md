@@ -1,6 +1,11 @@
 # An-introduction-to-machine-learning-with-scikit-learn
 An introduction to machine learning with scikit-learn
 
+
+This clinic uses data from thsi publication:
+DOI: 10.1128/aem.01292-23
+https://journals.asm.org/doi/10.1128/aem.01292-23
+
 ### Install required packages:
 ```
 conda install anaconda::scikit-learn=1.1.2
