@@ -41,7 +41,7 @@ classifier_model = RandomForestClassifier()
 classifier_model.fit(train_data_t, train_labels.values.ravel())
 ```
 
-### Load training dataset:
+### Load test dataset:
 ```
 # load the test data
 test_data_path = '113-534_SKA_align_m-0.2_k-15_p-0.1.OHE.csv'
