@@ -13,6 +13,12 @@ conda install anaconda::pandas=1.4.2
 conda install conda-forge::matplotlib=3.7.1
 ```
 
+### Unzip data files:
+```
+gunzip 421-534_SKA_align_m-0.2_k-15_p-0.1.OHE.csv.gz
+gunzip 113-534_SKA_align_m-0.2_k-15_p-0.1.OHE.csv.gz
+```
+
 ### Load packages
 ```
 import pandas as pd
