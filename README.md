@@ -107,6 +107,11 @@ plt.legend(loc="lower right")
 plt.show()
 ```
 
+### sanity check
+
+# randomise the labels
+#train_labels = train_labels.sample(frac=1)
+
 
 
 
