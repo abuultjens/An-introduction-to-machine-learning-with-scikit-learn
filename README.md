@@ -107,7 +107,7 @@ plt.legend(loc="lower right")
 plt.show()
 ```
 
-### Sanity check the analysis
+### Sanity check the analysis (randomise the order of labels):
 ```
 # Load training dataset:
 train_data = pd.read_csv('421-534_SKA_align_m-0.2_k-15_p-0.1.OHE.csv', index_col=0)
