@@ -2,7 +2,7 @@
 An introduction to machine learning with scikit-learn
 
 
-This clinic uses data from thsi publication:
+This clinic uses data from this publication:
 DOI: 10.1128/aem.01292-23
 https://journals.asm.org/doi/10.1128/aem.01292-23
 
