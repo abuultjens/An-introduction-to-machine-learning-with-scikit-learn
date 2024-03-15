@@ -6,8 +6,12 @@ This clinic uses data from this publication:
 DOI: 10.1128/aem.01292-23
 https://journals.asm.org/doi/10.1128/aem.01292-23
 
-### Install required packages:
+### Clone this GitHub repository and install required packages:
 ```
+# Clone repo
+https://github.com/abuultjens/An_introduction_to_machine_learning_with_scikit-learn.git
+
+# Install required packages
 conda install anaconda::scikit-learn=1.1.2
 conda install anaconda::pandas=1.4.2
 conda install conda-forge::matplotlib=3.7.1
