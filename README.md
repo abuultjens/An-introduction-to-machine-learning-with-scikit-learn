@@ -56,7 +56,7 @@ train_labels = pd.read_csv('target_421_NY-2.csv', index_col=0)
 train_labels = train_labels.loc[train_data_t.index]
 ```
 
-### Train a ML classifier:
+### Train a ML classifier (choose either a random forest or logistic regression model):
 
 #### Train a random forest classifier:
 ```
