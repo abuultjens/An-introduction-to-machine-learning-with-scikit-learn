@@ -146,8 +146,10 @@ train_data_t = train_data.transpose()
 # Load the train label files
 train_labels = pd.read_csv('target_421_NY-2.csv', index_col=0)
 
+#---------------------------------------------
 ####### randomise the labels #######
 train_labels = train_labels.sample(frac=1)
+#---------------------------------------------
 
 # Train a random forest classifier:
 # Initialise the Random Forest classifier
