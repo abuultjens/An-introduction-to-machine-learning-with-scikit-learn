@@ -37,7 +37,6 @@ python
 # Load packages
 import pandas as pd
 import numpy as np
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix, roc_auc_score, roc_curve
 import matplotlib.pyplot as plt
 ```
@@ -59,6 +58,9 @@ train_labels = train_labels.loc[train_data_t.index]
 
 ### Train a random forest classifier:
 ```
+# Load model
+from sklearn.ensemble import RandomForestClassifier
+
 # Initialise the Random Forest classifier
 classifier_model = RandomForestClassifier()
 
