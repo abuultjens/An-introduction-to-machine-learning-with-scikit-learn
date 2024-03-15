@@ -68,6 +68,18 @@ classifier_model = RandomForestClassifier()
 classifier_model.fit(train_data_t, train_labels.values.ravel())
 ```
 
+### Train a logistic regression classifier:
+```
+# Load model
+from sklearn.linear_model import LogisticRegression
+
+# Initialise the Logistic Regression classifier
+classifier_model = LogisticRegression(max_iter=1000)  # Increase max_iter if needed for convergence
+
+# Train the classifier with the training data and labels
+classifier_model.fit(train_data_t, train_labels.values.ravel())
+```
+
 ### Load test dataset:
 ```
 # load the test data
