@@ -74,7 +74,7 @@ classifier_model.fit(train_data_t, train_labels.values.ravel())
 from sklearn.linear_model import LogisticRegression
 
 # Initialise the Logistic Regression classifier
-classifier_model = LogisticRegression(max_iter=1000)  # Increase max_iter if needed for convergence
+classifier_model = LogisticRegression()
 
 # Train the classifier with the training data and labels
 classifier_model.fit(train_data_t, train_labels.values.ravel())
