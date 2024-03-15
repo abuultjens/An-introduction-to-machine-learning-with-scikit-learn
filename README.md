@@ -56,7 +56,9 @@ train_labels = pd.read_csv('target_421_NY-2.csv', index_col=0)
 train_labels = train_labels.loc[train_data_t.index]
 ```
 
-### Train a random forest classifier:
+### Train a ML classifier:
+
+#### Train a random forest classifier:
 ```
 # Load model
 from sklearn.ensemble import RandomForestClassifier
@@ -68,7 +70,7 @@ classifier_model = RandomForestClassifier()
 classifier_model.fit(train_data_t, train_labels.values.ravel())
 ```
 
-### Train a logistic regression classifier:
+#### Train a logistic regression classifier:
 ```
 # Load model
 from sklearn.linear_model import LogisticRegression
