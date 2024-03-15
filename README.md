@@ -149,9 +149,6 @@ train_labels = pd.read_csv('target_421_NY-2.csv', index_col=0)
 ####### randomise the labels #######
 train_labels = train_labels.sample(frac=1)
 
-# Ensure labels are aligned with data
-train_labels = train_labels.loc[train_data_t.index]
-
 # Train a random forest classifier:
 # Initialise the Random Forest classifier
 classifier_model = RandomForestClassifier()
@@ -171,7 +168,7 @@ test_labels_path = 'target_113_NY-2.csv'
 test_labels = pd.read_csv(test_labels_path, index_col=0)
 
 # Ensure labels are aligned with data
-test_labels = test_labels.loc[test_data_t.index]
+#test_labels = test_labels.loc[test_data_t.index]
 
 # Apply the trained model to make classifications on unseen test data:
 # Make predictions on the test data (unseen during model training)
