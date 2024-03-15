@@ -11,6 +11,9 @@ https://journals.asm.org/doi/10.1128/aem.01292-23
 # Clone repo
 git clone https://github.com/abuultjens/An_introduction_to_machine_learning_with_scikit-learn.git
 
+# Move into cloned repo
+cd An_introduction_to_machine_learning_with_scikit-learn/
+
 # Make new conda environment
 conda create -n ML_bioinfoclinic
 
