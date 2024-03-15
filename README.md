@@ -147,7 +147,7 @@ train_data_t = train_data.transpose()
 train_labels = pd.read_csv('target_421_NY-2.csv', index_col=0)
 
 ####### randomise the labels #######
-#train_labels = train_labels.sample(frac=1)
+train_labels = train_labels.sample(frac=1)
 
 # Ensure labels are aligned with data
 train_labels = train_labels.loc[train_data_t.index]
