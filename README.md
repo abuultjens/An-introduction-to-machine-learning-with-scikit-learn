@@ -20,24 +20,13 @@ conda install anaconda::pandas=1.4.2
 conda install conda-forge::matplotlib=3.7.1
 ```
 
-### Clone this GitHub repository and install required packages:
+### Clone this GitHub repository:
 ```
 # Clone repo
 git clone https://github.com/abuultjens/An_introduction_to_machine_learning_with_scikit-learn.git
 
 # Move into cloned repo
 cd An_introduction_to_machine_learning_with_scikit-learn/
-
-# Make new conda environment
-conda create -n ML_bioinfoclinic
-
-# Activate new conda env
-conda activate ML_bioinfoclinic
-
-# Install required packages
-conda install anaconda::scikit-learn=1.1.2
-conda install anaconda::pandas=1.4.2
-conda install conda-forge::matplotlib=3.7.1
 ```
 
 ### Unzip data files:
