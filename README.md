@@ -141,7 +141,7 @@ plt.show()
 ### Sanity check the analysis (randomise the order of labels):
 ```
 # Load training dataset:
-train_data = pd.read_csv('421-534_SKA_align_m-0.2_k-15_p-0.1.OHE.csv', index_col=0)
+#train_data = pd.read_csv('421-534_SKA_align_m-0.2_k-15_p-0.1.OHE.csv', index_col=0)
 
 # Transpose datasets to have observations as rows and features as columns
 train_data_t = train_data.transpose()
@@ -162,8 +162,7 @@ classifier_model = RandomForestClassifier()
 classifier_model.fit(train_data_t, train_labels.values.ravel())
 
 # load the test data
-test_data_path = '113-534_SKA_align_m-0.2_k-15_p-0.1.OHE.csv'
-test_data = pd.read_csv(test_data_path, index_col=0)
+#test_data = pd.read_csv('113-534_SKA_align_m-0.2_k-15_p-0.1.OHE.csv', index_col=0)
 
 # Transpose datasets to have observations as rows and features as columns
 test_data_t = test_data.transpose()
